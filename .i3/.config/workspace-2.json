@@ -1,0 +1,50 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "pixel",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1163,
+       "width": 950,
+       "x": 6,
+       "y": 1111
+    },
+    "marks": [],
+    "name": "New Tab",
+    "percent": 0.5,
+    "swallows": [
+       {
+       "class": "^Google\\-chrome$",
+       "instance": "^google\\-chrome$",
+       "machine": "^oai\\-3hwf4w3$",
+       "title": "^New Tab$",
+       "window_role": "^browser$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "pixel",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 900,
+       "width": 1600,
+       "x": 1115,
+       "y": 1259
+    },
+    "marks": [],
+    "name": "Spotify",
+    "percent": 0.5,
+    "swallows": [
+       {
+       "class": "^Spotify$",
+       "instance": "^spotify$",
+       "machine": "^oai\\-3hwf4w3$",
+       "title": "^Spotify$"
+       }
+    ],
+    "type": "con"
+}
+

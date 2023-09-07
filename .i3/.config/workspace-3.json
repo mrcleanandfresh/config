@@ -1,0 +1,86 @@
+// vim:ts=4:sw=4:et
+{
+    // splith split container with 2 children
+    "border": "pixel",
+    "floating": "auto_off",
+    "layout": "splith",
+    "marks": [],
+    "percent": 0.75,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 1055,
+               "width": 1920,
+               "x": 1920,
+               "y": 25
+            },
+            "marks": [],
+            "name": "workspace-3.json - .i3 - Visual Studio Code",
+            "percent": 0.5,
+            "swallows": [
+               {
+               "class": "^Code$",
+               "instance": "^code$",
+               "machine": "^oai\\-3hwf4w3$",
+               "title": "^workspace\\-3\\.json\\ \\-\\ \\.i3\\ \\-\\ Visual\\ Studio\\ Code$",
+               "window_role": "^browser\\-window$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 768,
+               "width": 1024,
+               "x": 2368,
+               "y": 156
+            },
+            "marks": [],
+            "name": "Welcome - Visual Studio Code",
+            "percent": 0.5,
+            "swallows": [
+               {
+               "class": "^Code$",
+               "instance": "^code$",
+               "machine": "^oai\\-3hwf4w3$",
+               "title": "^Welcome\\ \\-\\ Visual\\ Studio\\ Code$",
+               "window_role": "^browser\\-window$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    "border": "pixel",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 458,
+       "width": 802,
+       "x": 0,
+       "y": 0
+    },
+    "marks": [],
+    "name": "conf.d",
+    "percent": 0.25,
+    "swallows": [
+       {
+       "class": "^Gnome\\-terminal$",
+       "instance": "^gnome\\-terminal\\-server$",
+       "machine": "^oai\\-3hwf4w3$",
+       "title": "^conf\\.d$",
+       "window_role": "^gnome\\-terminal\\-window\\-19acb3b2\\-dec0\\-410f\\-a0aa\\-dd95fd945fec$"
+       }
+    ],
+    "type": "con"
+}
+
