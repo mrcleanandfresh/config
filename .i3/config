@@ -158,10 +158,10 @@ bindsym Mod1+Shift+9 move container to workspace number $ws9
 bindsym Mod1+Shift+0 move container to workspace number $ws10
 
 # workspace specific configuration
-exec --no-startup-id "$HOME/.i3/scripts/i3-layout-browsing.sh
-exec --no-startup-id "$HOME/.i3/scripts/i3-layout-code.sh
-exec --no-startup-id "$HOME/.i3/scripts/i3-layout-teams-and-music.sh
-exec --no-startup-id "$HOME/.i3/scripts/i3-layout-signal.sh
+bindsym $mod+g exec --no-startup-id "$HOME/.i3/scripts/i3-layout-browsing.sh
+bindsym $mod+g exec --no-startup-id "$HOME/.i3/scripts/i3-layout-code.sh
+bindsym $mod+g exec --no-startup-id "$HOME/.i3/scripts/i3-layout-teams-and-music.sh
+bindsym $mod+g exec --no-startup-id "$HOME/.i3/scripts/i3-layout-signal.sh
 
 
 # reload the configuration file
